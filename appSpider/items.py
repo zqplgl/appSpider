@@ -1,14 +1,27 @@
 # -*- coding: utf-8 -*-
-
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
 class AppspiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    app_id = scrapy.Field()
+    charge = scrapy.Field()
+    name = scrapy.Field()
+    developer = scrapy.Field()
+    category = scrapy.Field()
+    rating = scrapy.Field()
+    description = scrapy.Field()
+    updated = scrapy.Field()
+    size = scrapy.Field()
+    installs = scrapy.Field()
+    version = scrapy.Field()
+    new = scrapy.Field()
+    num_comments = scrapy.Field()
+    rate_1 = scrapy.Field()
+    rate_2 = scrapy.Field()
+    rate_3 = scrapy.Field()
+    rate_4 = scrapy.Field()
+    rate_5 = scrapy.Field()
+    website = scrapy.Field()
+    email = scrapy.Field()
+    address = scrapy.Field()
+
